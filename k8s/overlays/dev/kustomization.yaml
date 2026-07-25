@@ -5,5 +5,5 @@ resources:
   - ../../base
 images:
   - name: ghcr.io/replace-me/hello-argocd
-    newName: ghcr.io/replace-me/hello-argocd
-    newTag: latest
+    newName: ghcr.io/hahust/hello-argocd
+    newTag: 2f32c8dc2854b1cc27ca005ef68aad9faa9ec1ff
