@@ -8,6 +8,6 @@ import org.springframework.web.bind.annotation.RestController;
 class HelloController {
     @GetMapping("/")
     Map<String, String> hello() {
-        return Map.of("message", "Hello from Spring Boot + Argo CD!");
+        return Map.of("message", "Hello from Spring Boot + Argo CD! + hahaahha");
     }
 }
