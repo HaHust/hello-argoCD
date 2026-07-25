@@ -6,4 +6,4 @@ resources:
 images:
   - name: ghcr.io/replace-me/hello-argocd
     newName: ghcr.io/hahust/hello-argocd
-    newTag: 2f32c8dc2854b1cc27ca005ef68aad9faa9ec1ff
+    newTag: 8520e799d9371c6dab390fc5d462e058e64bfef4
