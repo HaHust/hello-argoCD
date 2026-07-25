@@ -44,6 +44,8 @@ jobs:
           registry: ghcr.io
           username: ${{ github.actor }}
           password: ${{ secrets.GITHUB_TOKEN }}
+      - name: Verify container build before publishing
+        run: docker build --tag hello-argocd:ci .
       - uses: docker/build-push-action@v6
         with:
           context: .
