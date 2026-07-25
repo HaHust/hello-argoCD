@@ -1,0 +1,9 @@
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+namespace: hello-dev
+resources:
+  - ../../base
+images:
+  - name: ghcr.io/replace-me/hello-argocd
+    newName: ghcr.io/replace-me/hello-argocd
+    newTag: latest
